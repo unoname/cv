@@ -1,3 +1,13 @@
 body {
 	background-color: lightgrey; 
+	font-family: 'Brush Script MT', cursive;
+}
+
+.my-picture {
+	object-fit: scale-down;
+	width: 100%;
+}
+h1 {
+	font-family: 'Akronim';
+	font-size: 52px;
 }
