@@ -1,0 +1,42 @@
+body {
+	background-color: lightgrey; 
+	font-family: 'Brush Script MT', cursive;
+}
+
+h1 {
+	font-family: 'Akronim';
+	font-size: 52px;
+}
+@media  screen and (max-width: 1170px) {
+	html {
+		font-size: 16px;
+	} 
+	nav {
+		width: 100%;
+		padding-left: 0;
+}
+nav div {
+		width: 100%;
+		margin: auto;
+		padding: 5px 0;
+}
+}
+
+@media screen and (max-width: 900px) {
+	section.skil {
+		display: block !important;
+	}
+	.skil__card {
+		display: flex;
+		gap: .8rem;
+		width: 100% !important;
+	}
+	div > img {
+		width: 60%;
+		max-width: 100%;
+	}
+
+	.btn {
+width: 12%;
+	}
+}
