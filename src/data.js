@@ -112,8 +112,8 @@ export const renderHtml = (data)=> `
         </div>
       </div>
 
-      <nav class="nav border-bottom col-10 d-flex align-items-center justify-content-around">
-    <div class="col d-flex align-items-center">
+      <nav class="nav  col-10 d-flex align-items-center justify-content-around">
+    <div class="col d-flex align-items-center border-bottom">
         <li class="col"><a class="fs-1 fs-4 fs-5 text-nowrap text-decoration-none" href="#1">${data.titleAboutMe}</a></li>
         <li class="col"><a class="fs-1 fs-4 fs-5 text-nowrap text-decoration-none" href="#2">${data.titleEducation}</a></li>
         <li class="col"><a class="fs-1 fs-4 fs-5 text-nowrap text-decoration-none" href="#3">${data.titleExperiens}</a></li>
